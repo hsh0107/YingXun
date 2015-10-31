@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutViewController" customModule="YingXun" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="G2y-X0-UYJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xco-rC-Eoq">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">          作者是一个移动开发新手，本想独立完成这个APP，然后可以分享出来，写到这里，发现程序很多地方需要优化，最近可能先要去了解一下基础知识，再来分享一个更加优秀的Demo。                                                                 程序中可能存在这样和那样的不足，给您带来不便，希望谅解                                                     非常感谢维尼小熊的小日子，很多思路和图标都参考了他的作品                                                     麦扣：QQ：602710412                                   邮箱：isugar0304@gmail.com</mutableString>
+                    <color key="textColor" red="1" green="0.24503084189999999" blue="0.40742728309999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xco-rC-Eoq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3j1-JU-XaM"/>
+                <constraint firstItem="xco-rC-Eoq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7j9-sv-bjD"/>
+                <constraint firstAttribute="bottom" secondItem="xco-rC-Eoq" secondAttribute="bottom" id="USR-jP-ntT"/>
+                <constraint firstAttribute="trailing" secondItem="xco-rC-Eoq" secondAttribute="trailing" id="kSt-qs-ZrK"/>
+            </constraints>
+            <point key="canvasLocation" x="353" y="250"/>
+        </view>
+    </objects>
+</document>
